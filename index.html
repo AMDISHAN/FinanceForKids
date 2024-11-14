@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance for Kids</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        .lesson, .quiz {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .quiz button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .quiz button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Finance for Kids</h1>
+</header>
+
+<nav>
+    <a href="#lesson1">Lesson 1</a>
+    <a href="#lesson2">Lesson 2</a>
+    <a href="#lesson3">Lesson 3</a>
+    <a href="#lesson4">Lesson 4</a>
+    <a href="#lesson5">Lesson 5</a>
+    <a href="#lesson6">Lesson 6</a>
+    <a href="#lesson7">Lesson 7</a>
+    <a href="#lesson8">Lesson 8</a>
+    <a href="#lesson9">Lesson 9</a>
+    <a href="#lesson10">Lesson 10</a>
+</nav>
+
+<div class="content">
+    <!-- Lesson 1 -->
+    <section id="lesson1" class="lesson">
+        <h2>Lesson 1: What is Money?</h2>
+        <p>Money is an essential part of our everyday life. It is used to buy goods (things like food, clothes, and toys) and services (things like haircuts, movies, and a ride on the bus). Money comes in many forms: coins, bills, and digital currency. It's important to understand that money is not endless; it needs to be managed wisely to ensure we can use it when we need it.</p>
+
+        <p>Every time we need something, we exchange money for it. If we run out of money, we can’t buy what we want or need. That’s why saving and budgeting are so important. Money can come from many places, like allowances, jobs, or gifts. But no matter where it comes from, learning how to use money properly is a very important skill!</p>
+
+        <button onclick="alert('Money helps us trade for goods and services!')">Learn More</button>
+        <div class="quiz">
+            <p>What is money used for?</p>
+            <form id="quiz1">
+                <input type="radio" name="q1" value="correct"> To buy goods and services<br>
+                <input type="radio" name="q1" value="incorrect"> To store food<br>
+                <input type="radio" name="q1" value="incorrect"> To play games<br>
+                <button type="button" onclick="checkQuiz1()">Submit</button>
+            </form>
+            <p id="quiz1Result"></p>
+        </div>
+    </section>
+
+    <!-- Lesson 2 -->
+    <section id="lesson2" class="lesson">
+        <h2>Lesson 2: Budgeting Your Money</h2>
+        <p>Budgeting is a way of organizing and planning how you will use your money. A budget helps you make sure you don't spend too much, and it shows you how much you can save. The first step in budgeting is knowing how much money you have, and the second step is deciding how to spend it wisely.</p>
+
+        <p>For example, imagine you get $10 for your weekly allowance. You might need to pay for a snack, save for a new toy, or even save for a trip. You must decide how to spend your $10 so you have enough to cover your needs, and still have some leftover for saving or fun stuff!</p>
+
+        <p>Remember: budgeting isn't about cutting out fun. It's about being smart and making sure you have money when you need it. It’s a simple way to make sure you always have enough for your most important things!</p>
+
+        <button onclick="alert('A budget helps you save for the future and spend wisely!')">Learn More</button>
+        <div class="quiz">
+            <p>Why do we need a budget?</p>
+            <form id="quiz2">
+                <input type="radio" name="q2" value="correct"> To plan how to spend and save money<br>
+                <input type="radio" name="q2" value="incorrect"> To spend all your money quickly<br>
+                <input type="radio" name="q2" value="incorrect"> To borrow money from friends<br>
+                <button type="button" onclick="checkQuiz2()">Submit</button>
+            </form>
+            <p id="quiz2Result"></p>
+        </div>
+    </section>
+
+    <!-- Lesson 3 -->
+    <section id="lesson3" class="lesson">
+        <h2>Lesson 3: Saving Money</h2>
+        <p>Saving money means keeping part of your money instead of spending it right away. Saving is important because it helps you plan for the future. When you save, you put aside money for something big you want later, like a new game or bike, or for things you might need, like school supplies or gifts.</p>
+
+        <p>Imagine you want a new toy that costs $20. If you only have $10 right now, you can save $2 every week. After 5 weeks, you'll have enough! Saving also teaches you to wait and plan for what you really want instead of spending all your money on things that might not be as important.</p>
+
+        <p>Saving money helps you feel secure because you know you have money set aside when you need it, whether it's for a rainy day or a fun treat!</p>
+
+        <button onclick="alert('Saving teaches you patience and helps you prepare for the future!')">Learn More</button>
+        <div class="quiz">
+            <p>Why is saving money important?</p>
+            <form id="quiz3">
+                <input type="radio" name="q3" value="correct"> It helps you prepare for the future<br>
+                <input type="radio" name="q3" value="incorrect"> It lets you spend all your money now<br>
+                <input type="radio" name="q3" value="incorrect"> It’s only for adults<br>
+                <button type="button" onclick="checkQuiz3()">Submit</button>
+            </form>
+            <p id="quiz3Result"></p>
+        </div>
+    </section>
+
+    <!-- Lesson 4 -->
+    <section id="lesson4" class="lesson">
+        <h2>Lesson 4: Investing: Growing Your Money</h2>
+        <p>Investing is when you put your money into something that can help it grow. Instead of just saving your money, you can invest it in things like stocks, bonds, or even a business. The idea is that, over time, your money will increase in value.</p>
+
+        <p>Think about planting a seed in a garden. If you take care of it, it will grow into a tree. Similarly, if you invest your money wisely, it can grow and become more valuable over time. Investing is not without risks, though. Sometimes, investments can lose value. It’s important to learn about where and how to invest wisely.</p>
+
+        <p>Investing can be fun, especially when you start learning about companies and how they make money. It’s one of the ways people grow their wealth and save for their long-term goals!</p>
+
+        <button onclick="alert('Investing grows your money, but be careful!')">Learn More</button>
+        <div class="quiz">
+            <p>What is investing?</p>
+            <form id="quiz4">
+                <input type="radio" name="q4" value="correct"> Using money to make more money over time<br>
+                <input type="radio" name="q4" value="incorrect"> Spending all your money on toys<br>
+                <input type="radio" name="q4" value="incorrect"> Giving away all your money<br>
+                <button type="button" onclick="checkQuiz4()">Submit</button>
+            </form>
+            <p id="quiz4Result"></p>
+        </div>
+    </section>
+
+    <!-- Lesson 5 -->
+    <section id="lesson5" class="lesson">
+        <h2>Lesson 5: How to Earn Money</h2>
+        <p>To manage money, you first need to earn it! There are many ways to earn money: through an allowance, by doing chores, or even by starting a small business like a lemonade stand or selling crafts. Earning money helps you learn the value of hard work.</p>
+
+        <p>When you earn money, it gives you a sense of accomplishment. You get to decide how to use it, whether it's for saving, spending, or giving to others. Learning how to earn money and manage it is one of the first steps in becoming financially independent.</p>
+
+        <button onclick="alert('Earning money is rewarding and empowering!')">Learn More</button>
+        <div class="quiz">
+            <p>What is one way to earn money?</p>
+            <form id="quiz5">
+                <input type="radio" name="q5" value="correct"> Doing chores or a small job<br>
+                <input type="radio" name="q5" value="incorrect"> Taking someone else’s money<br>
+                <input type="radio" name="q5" value="incorrect"> Asking for gifts all the time<br>
+                <button type="button" onclick="checkQuiz5()">Submit</button>
+            </form>
+            <p id="quiz5Result"></p>
+        </div>
+    </section>
+
+    <!-- Lesson 6 -->
+    <section id="lesson6" class="lesson">
+        <h2>Lesson 6: Understanding Credit</h2>
+        <p>Credit is when you borrow money with the promise to pay it back later. It’s used for things like buying a car or a house, but it’s important to understand how credit works before you use it.</p>
+
+        <p>When you borrow money using credit, you must pay it back with interest, which means you pay more than you borrowed. If you don’t pay back the money on time, it can damage your credit score, which makes it harder to borrow money in the future. Being responsible with credit is key!</p>
+
+        <button onclick="alert('Credit allows you to borrow money but be careful with it!')">Learn More</button>
+        <div class="quiz">
+            <p>What does credit allow you to do?</p>
+            <form id="quiz6">
+                <input type="radio" name="q6" value="correct"> Borrow money to pay back later<br>
+                <input type="radio" name="q6" value="incorrect"> Keep money without paying it back<br>
+                <input type="radio" name="q6" value="incorrect"> Spend money without worrying<br>
+                <button type="button" onclick="checkQuiz6()">Submit</button>
+            </form>
+            <p id="quiz6Result"></p>
+        </div>
+    </section>
+
+    <!-- Lesson 7 -->
+    <section id="lesson7" class="lesson">
+        <h2>Lesson 7: Taxes and How They Work</h2>
+        <p>Taxes are money that people pay to the government to help pay for things like schools, roads, and emergency services. Every time you buy something, a small amount of money is added as tax. This is called sales tax.</p>
+
+        <p>When adults work, a portion of their earnings is also taken as tax to fund government services. It's important to understand taxes because they help provide services that benefit everyone.</p>
+
+        <button onclick="alert('Taxes help fund important services in your community!')">Learn More</button>
+        <div class="quiz">
+            <p>What are taxes used for?</p>
+            <form id="quiz7">
+                <input type="radio" name="q7" value="correct"> To fund services like schools and roads<br>
+                <input type="radio" name="q7" value="incorrect"> To buy new toys<br>
+                <input type="radio" name="q7" value="incorrect"> To give away free money<br>
+                <button type="button" onclick="checkQuiz7()">Submit</button>
+            </form>
+            <p id="quiz7Result"></p>
+        </div>
+    </section>
+
+    <!-- New Lessons (8-10) -->
+
+    <!-- Lesson 8 -->
+    <section id="lesson8" class="lesson">
+        <h2>Lesson 8: Planning for the Future</h2>
+        <p>Planning for the future is one of the most important financial skills you can learn. It involves thinking ahead and deciding how you want to spend, save, and invest your money. You may not always know exactly what will happen, but setting goals and planning for different scenarios will help you be ready for whatever comes your way.</p>
+
+        <p>One way to plan for the future is by thinking about what you might need or want, such as going to college or buying your first car. These things require money, so the earlier you start planning and saving, the better prepared you’ll be. Saving and budgeting now means you’ll be ready for your future!</p>
+
+        <button onclick="alert('Planning ahead helps you prepare for big life events!')">Learn More</button>
+        <div class="quiz">
+            <p>What does planning for the future help you do?</p>
+            <form id="quiz8">
+                <input type="radio" name="q8" value="correct"> Prepare for big life events<br>
+                <input type="radio" name="q8" value="incorrect"> Spend all your money quickly<br>
+                <input type="radio" name="q8" value="incorrect"> Forget about your goals<br>
+                <button type="button" onclick="checkQuiz8()">Submit</button>
+            </form>
+            <p id="quiz8Result"></p>
+        </div>
+    </section>
+
+    <!-- Lesson 9 -->
+    <section id="lesson9" class="lesson">
+        <h2>Lesson 9: Charity and Giving Back</h2>
+        <p>Charity is when you give some of your money or time to help others who need it. Giving is a great way to make a positive difference in the world and help those who might be less fortunate. You can donate money to causes you care about or volunteer to help in your community.</p>
+
+        <p>Learning to give back teaches you empathy and kindness. It also helps you realize that while it’s important to manage your own money, it’s just as important to think about how you can use your resources to help others.</p>
+
+        <button onclick="alert('Giving back makes the world a better place!')">Learn More</button>
+        <div class="quiz">
+            <p>What is charity?</p>
+            <form id="quiz9">
+                <input type="radio" name="q9" value="correct"> Helping others by giving money or time<br>
+                <input type="radio" name="q9" value="incorrect"> Spending all your money on yourself<br>
+                <input type="radio" name="q9" value="incorrect"> Ignoring the needs of others<br>
+                <button type="button" onclick="checkQuiz9()">Submit</button>
+            </form>
+            <p id="quiz9Result"></p>
+        </div>
+    </section>
+
+    <!-- Lesson 10 -->
+    <section id="lesson10" class="lesson">
+        <h2>Lesson 10: Entrepreneurship</h2>
+        <p>Entrepreneurship is when you start your own business to sell products or services. It’s about being creative, solving problems, and taking risks. Many people start small businesses at a young age, like selling lemonade, creating art to sell, or offering to mow lawns for neighbors.</p>
+
+        <p>Starting a business teaches you about responsibility, hard work, and the importance of providing something valuable to others. Even though starting a business can be hard, it can also be very rewarding!</p>
+
+        <button onclick="alert('Entrepreneurship encourages creativity and hard work!')">Learn More</button>
+        <div class="quiz">
+            <p>What is entrepreneurship?</p>
+            <form id="quiz10">
+                <input type="radio" name="q10" value="correct"> Starting your own business<br>
+                <input type="radio" name="q10" value="incorrect"> Spending all your money on yourself<br>
+                <input type="radio" name="q10" value="incorrect"> Buying everything you want<br>
+                <button type="button" onclick="checkQuiz10()">Submit</button>
+            </form>
+            <p id="quiz10Result"></p>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>Finance for Kids - All Rights Reserved</p>
+</footer>
+
+<script>
+    function checkQuiz1() {
+        var result = document.querySelector('input[name="q1"]:checked');
+        if (result) {
+            document.getElementById('quiz1Result').textContent = result.value === "correct" ? "Correct!" : "Try again!";
+        } else {
+            alert("Please select an answer.");
+        }
+    }
+
+    function checkQuiz2() {
+        var result = document.querySelector('input[name="q2"]:checked');
+        if (result) {
+            document.getElementById('quiz2Result').textContent = result.value === "correct" ? "Correct!" : "Try again!";
+        } else {
+            alert("Please select an answer.");
+        }
+    }
+
+    function checkQuiz3() {
+        var result = document.querySelector('input[name="q3"]:checked');
+        if (result) {
+            document.getElementById('quiz3Result').textContent = result.value === "correct" ? "Correct!" : "Try again!";
+        } else {
+            alert("Please select an answer.");
+        }
+    }
+
+    function checkQuiz4() {
+        var result = document.querySelector('input[name="q4"]:checked');
+        if (result) {
+            document.getElementById('quiz4Result').textContent = result.value === "correct" ? "Correct!" : "Try again!";
+        } else {
+            alert("Please select an answer.");
+        }
+    }
+
+    function checkQuiz5() {
+        var result = document.querySelector('input[name="q5"]:checked');
+        if (result) {
+            document.getElementById('quiz5Result').textContent = result.value === "correct" ? "Correct!" : "Try again!";
+        } else {
+            alert("Please select an answer.");
+        }
+    }
+
+    function checkQuiz6() {
+        var result = document.querySelector('input[name="q6"]:checked');
+        if (result) {
+            document.getElementById('quiz6Result').textContent = result.value === "correct" ? "Correct!" : "Try again!";
+        } else {
+            alert("Please select an answer.");
+        }
+    }
+
+    function checkQuiz7() {
+        var result = document.querySelector('input[name="q7"]:checked');
+        if (result) {
+            document.getElementById('quiz7Result').textContent = result.value === "correct" ? "Correct!" : "Try again!";
+        } else {
+            alert("Please select an answer.");
+        }
+    }
+
+    function checkQuiz8() {
+        var result = document.querySelector('input[name="q8"]:checked');
+        if (result) {
+            document.getElementById('quiz8Result').textContent = result.value === "correct" ? "Correct!" : "Try again!";
+        } else {
+            alert("Please select an answer.");
+        }
+    }
+
+    function checkQuiz9() {
+        var result = document.querySelector('input[name="q9"]:checked');
+        if (result) {
+            document.getElementById('quiz9Result').textContent = result.value === "correct" ? "Correct!" : "Try again!";
+        } else {
+            alert("Please select an answer.");
+        }
+    }
+
+    function checkQuiz10() {
+        var result = document.querySelector('input[name="q10"]:checked');
+        if (result) {
+            document.getElementById('quiz10Result').textContent = result.value === "correct" ? "Correct!" : "Try again!";
+        } else {
+            alert("Please select an answer.");
+        }
+    }
+</script>
+
+</body>
+</html>
